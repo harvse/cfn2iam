@@ -1,0 +1,1 @@
+docker build -t cfn2iam ./docker

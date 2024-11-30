@@ -1,0 +1,1 @@
+docker run --rm -v ./cfn:/var/app/cfn:ro -v ./iam:/var/app/iam -v ~/.aws:/home/app/.aws:ro --env-file ./.env cfn2iam
